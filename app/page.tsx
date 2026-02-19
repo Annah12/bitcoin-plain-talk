@@ -1,6 +1,10 @@
+'use client';
+
 import Link from "next/link";
 import SearchBar from "@/components/SearchBar";
 import LanguageSelector from "@/components/LanguageSelector";
+
+export const dynamic = 'force-dynamic';
 
 export default function Home() {
   return (
@@ -145,7 +149,7 @@ export default function Home() {
               Start Contributing
             </Link>
             <a
-              href="https://github.com/wandiology/bitcoin-plain-talk"
+              href="https://github.com/wandiamugo/bitcoin-plain-talk"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-orange-600 bg-transparent px-8 py-3 font-semibold text-orange-700 transition-colors hover:bg-orange-50"

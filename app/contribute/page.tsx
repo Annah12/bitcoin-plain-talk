@@ -1,5 +1,9 @@
+'use client';
+
 import Link from "next/link";
 import LanguageSelector from "@/components/LanguageSelector";
+
+export const dynamic = 'force-dynamic';
 
 export default function ContributePage() {
   return (
@@ -145,7 +149,7 @@ export default function ContributePage() {
             </p>
             <div className="mt-6 flex flex-col gap-4 sm:flex-row sm:justify-center">
               <a
-                href="https://github.com/wandiology/bitcoin-plain-talk"
+                href="https://github.com/wandiamugo/bitcoin-plain-talk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-orange-600 px-8 py-3 font-semibold text-white transition-colors hover:bg-orange-700"
