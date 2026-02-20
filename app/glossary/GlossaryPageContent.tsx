@@ -23,7 +23,19 @@ export default function GlossaryPageContent() {
         const response = await fetch(`/api/terms?lang=${currentLang}`);
         const terms = await response.json();
         setAllTerms(terms);
-        setFilteredTerms(terms);
+
+        // Apply initial filtering if there's a search query
+        if (!searchQuery.trim()) {
+          setFilteredTerms(terms);
+        } else {
+          const lowerQuery = searchQuery.toLowerCase();
+          const filtered = terms.filter(term =>
+            term.title.toLowerCase().includes(lowerQuery) ||
+            term.plainEnglish.toLowerCase().includes(lowerQuery) ||
+            term.category.toLowerCase().includes(lowerQuery)
+          );
+          setFilteredTerms(filtered);
+        }
       } catch (error) {
         console.error('Failed to fetch terms:', error);
       } finally {
@@ -31,25 +43,11 @@ export default function GlossaryPageContent() {
       }
     };
     fetchTerms();
-  }, [currentLang]);
+  }, [currentLang, searchQuery]);
 
   useEffect(() => {
     setSearchInput(searchQuery);
-
-    // Filter terms whenever search query or all terms change
-    if (!searchQuery.trim()) {
-      setFilteredTerms(allTerms);
-      return;
-    }
-
-    const lowerQuery = searchQuery.toLowerCase();
-    const filtered = allTerms.filter(term =>
-      term.title.toLowerCase().includes(lowerQuery) ||
-      term.plainEnglish.toLowerCase().includes(lowerQuery) ||
-      term.category.toLowerCase().includes(lowerQuery)
-    );
-    setFilteredTerms(filtered);
-  }, [searchQuery, allTerms]);
+  }, [searchQuery]);
 
   const filterTerms = (query: string) => {
     if (!query.trim()) {
