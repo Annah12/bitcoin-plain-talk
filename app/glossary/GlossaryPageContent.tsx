@@ -35,7 +35,20 @@ export default function GlossaryPageContent() {
 
   useEffect(() => {
     setSearchInput(searchQuery);
-    filterTerms(searchQuery);
+
+    // Filter terms whenever search query or all terms change
+    if (!searchQuery.trim()) {
+      setFilteredTerms(allTerms);
+      return;
+    }
+
+    const lowerQuery = searchQuery.toLowerCase();
+    const filtered = allTerms.filter(term =>
+      term.title.toLowerCase().includes(lowerQuery) ||
+      term.plainEnglish.toLowerCase().includes(lowerQuery) ||
+      term.category.toLowerCase().includes(lowerQuery)
+    );
+    setFilteredTerms(filtered);
   }, [searchQuery, allTerms]);
 
   const filterTerms = (query: string) => {
@@ -85,6 +98,9 @@ export default function GlossaryPageContent() {
             <nav className="flex items-center gap-6">
               <Link href="/glossary" className="text-sm font-medium text-orange-600">
                 Glossary
+              </Link>
+              <Link href="/chat" className="text-sm font-medium text-gray-700 hover:text-orange-600 transition-colors">
+                Chat
               </Link>
               <Link href="/contribute" className="text-sm font-medium text-gray-700 hover:text-orange-600 transition-colors">
                 Contribute
