@@ -1,9 +1,6 @@
-'use client';
-
 import Link from "next/link";
-import LanguageSelector from "@/components/LanguageSelector";
-
-export const dynamic = 'force-dynamic';
+import { Suspense } from "react";
+import LanguageSelectorWrapper from "@/components/LanguageSelectorWrapper";
 
 export default function ContributePage() {
   return (
@@ -23,7 +20,13 @@ export default function ContributePage() {
               <Link href="/contribute" className="text-sm font-medium text-orange-600">
                 Contribute
               </Link>
-              <LanguageSelector />
+              <Suspense fallback={
+                <div className="rounded-lg border border-orange-200 bg-white px-3 py-1.5 text-sm font-medium text-gray-900">
+                  English
+                </div>
+              }>
+                <LanguageSelectorWrapper />
+              </Suspense>
             </nav>
           </div>
         </div>

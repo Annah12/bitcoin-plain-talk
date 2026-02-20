@@ -1,10 +1,7 @@
-'use client';
-
 import Link from "next/link";
+import { Suspense } from "react";
 import SearchBar from "@/components/SearchBar";
-import LanguageSelector from "@/components/LanguageSelector";
-
-export const dynamic = 'force-dynamic';
+import LanguageSelectorWrapper from "@/components/LanguageSelectorWrapper";
 
 export default function Home() {
   return (
@@ -24,7 +21,13 @@ export default function Home() {
               <Link href="/contribute" className="text-sm font-medium text-gray-700 hover:text-orange-600 transition-colors">
                 Contribute
               </Link>
-              <LanguageSelector />
+              <Suspense fallback={
+                <div className="rounded-lg border border-orange-200 bg-white px-3 py-1.5 text-sm font-medium text-gray-900">
+                  English
+                </div>
+              }>
+                <LanguageSelectorWrapper />
+              </Suspense>
             </nav>
           </div>
         </div>
