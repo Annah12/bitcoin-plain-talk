@@ -29,7 +29,7 @@ export default function GlossaryPageContent() {
           setFilteredTerms(terms);
         } else {
           const lowerQuery = searchQuery.toLowerCase();
-          const filtered = terms.filter(term =>
+          const filtered = terms.filter((term: Term) =>
             term.title.toLowerCase().includes(lowerQuery) ||
             term.plainEnglish.toLowerCase().includes(lowerQuery) ||
             term.category.toLowerCase().includes(lowerQuery)
@@ -56,7 +56,7 @@ export default function GlossaryPageContent() {
     }
 
     const lowerQuery = query.toLowerCase();
-    const filtered = allTerms.filter(term =>
+    const filtered = allTerms.filter((term: Term) =>
       term.title.toLowerCase().includes(lowerQuery) ||
       term.plainEnglish.toLowerCase().includes(lowerQuery) ||
       term.category.toLowerCase().includes(lowerQuery)
