@@ -99,7 +99,7 @@ export default function TermPage({
                   {term.category}
                 </span>
                 <span className="rounded-full bg-orange-50 px-3 py-1 text-sm font-medium text-orange-600">
-                  {currentLang === 'en' ? 'English' : currentLang === 'sw' ? 'Swahili' : 'Pidgin'}
+                  {currentLang === 'en' ? 'English' : currentLang === 'sw' ? 'Swahili' : currentLang === 'pcm' ? 'Pidgin' : currentLang === 'ki' ? 'Kikuyu' : 'Yoruba'}
                 </span>
               </div>
             </div>
@@ -111,7 +111,7 @@ export default function TermPage({
           {/* Plain English / Maelezo Rahisi */}
           <section className="rounded-2xl border border-orange-200 bg-white p-8">
             <h2 className="mb-4 text-2xl font-bold text-orange-500">
-              {currentLang === 'sw' ? 'Maelezo Rahisi' : 'Plain English'}
+              {currentLang === 'sw' ? 'Maelezo Rahisi' : currentLang === 'pcm' ? 'Plain Pidgin' : currentLang === 'ki' ? 'Na njira huthu' : 'Plain English'}
             </h2>
             <p className="text-lg leading-relaxed text-gray-800">{term.plainEnglish}</p>
           </section>

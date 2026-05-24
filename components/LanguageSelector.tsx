@@ -6,6 +6,8 @@ const languages = [
   { code: 'en', name: 'English' },
   { code: 'sw', name: 'Swahili' },
   { code: 'pcm', name: 'Pidgin' },
+  { code: 'ki', name: 'Kikuyu' },
+  { code: 'yo', name: 'Yoruba' },
 ];
 
 export default function LanguageSelector() {

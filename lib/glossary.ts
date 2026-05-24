@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const glossaryDirectory = path.join(process.cwd(), '..', 'glossary');
+const glossaryDirectory = path.join(process.cwd(), 'glossary');
 
 export interface Term {
   slug: string;
@@ -79,7 +79,7 @@ export function getTermBySlug(slug: string, language: string = 'en'): Term | nul
   const category = categoryLine?.replace(/\*\*(Category|Kategoria):\*\*\s*/, '') || 'General';
 
   // Support both English and Swahili headers
-  const plainEnglishStart = lines.findIndex(l => l.trim() === '## Plain English' || l.trim() === '## Maelezo Rahisi');
+  const plainEnglishStart = lines.findIndex(l => l.trim() === '## Plain English' || l.trim() === '## Maelezo Rahisi' || l.trim() === '## Na njira huthu');
   const plainEnglish = plainEnglishStart >= 0
     ? lines[plainEnglishStart + 2]?.trim() || ''
     : '';
