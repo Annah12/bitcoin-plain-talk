@@ -37,8 +37,8 @@ export function getAllTerms(language: string = 'en'): Term[] {
       const title = lines[0]?.replace(/^#\s*/, '') || slug;
 
       // Extract category
-      const categoryLine = lines.find(l => l.startsWith('**Category:**'));
-      const category = categoryLine?.replace(/\*\*Category:\*\*\s*/, '') || 'General';
+      const categoryLine = lines.find(l => l.startsWith('**Category:**') || l.startsWith('**Kategoria:**'));
+      const category = categoryLine?.replace(/\*\*(Category|Kategoria):\*\*\s*/, '') || 'General';
 
       // Extract plain English (after ## Plain English header)
       const plainEnglishStart = lines.findIndex(l => l.trim() === '## Plain English');

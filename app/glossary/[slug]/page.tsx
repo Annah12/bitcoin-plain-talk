@@ -99,7 +99,7 @@ export default function TermPage({
                   {term.category}
                 </span>
                 <span className="rounded-full bg-orange-50 px-3 py-1 text-sm font-medium text-orange-600">
-                  {currentLang === 'en' ? 'English' : 'Swahili'}
+                  {currentLang === 'en' ? 'English' : currentLang === 'sw' ? 'Swahili' : 'Pidgin'}
                 </span>
               </div>
             </div>

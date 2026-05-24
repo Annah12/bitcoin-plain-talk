@@ -5,6 +5,7 @@ import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 const languages = [
   { code: 'en', name: 'English' },
   { code: 'sw', name: 'Swahili' },
+  { code: 'pcm', name: 'Pidgin' },
 ];
 
 export default function LanguageSelector() {
