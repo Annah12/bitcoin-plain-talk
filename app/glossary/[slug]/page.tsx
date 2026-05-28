@@ -111,7 +111,7 @@ export default function TermPage({
           {/* Plain English / Maelezo Rahisi */}
           <section className="rounded-2xl border border-orange-200 bg-white p-8">
             <h2 className="mb-4 text-2xl font-bold text-orange-500">
-              {currentLang === 'sw' ? 'Maelezo Rahisi' : currentLang === 'pcm' ? 'Plain Pidgin' : currentLang === 'ki' ? 'Na njira huthu' : 'Plain English'}
+              {currentLang === 'sw' ? 'Maelezo Rahisi' : currentLang === 'pcm' ? 'Plain Pidgin' : currentLang === 'ki' ? 'Na njira huthu' : currentLang === 'yo' ? 'Ní Ìtumọ̀ Rọrùn' : 'Plain English'}
             </h2>
             <p className="text-lg leading-relaxed text-gray-800">{term.plainEnglish}</p>
           </section>
@@ -120,7 +120,7 @@ export default function TermPage({
           {term.analogy && (
             <section className="rounded-2xl border border-orange-200 bg-orange-50 p-8">
               <h2 className="mb-4 text-2xl font-bold text-orange-500">
-                {currentLang === 'sw' ? 'Mfano wa Kila Siku' : 'Analogy'}
+                {currentLang === 'sw' ? 'Mfano wa Kila Siku' : currentLang === 'pcm' ? 'Analogy' : currentLang === 'ki' ? 'Mfano wa Kila Siku' : currentLang === 'yo' ? 'Àpẹẹrẹ' : 'Analogy'}
               </h2>
               <p className="text-lg leading-relaxed text-gray-800">{term.analogy}</p>
             </section>
@@ -130,7 +130,7 @@ export default function TermPage({
           {term.inContext && (
             <section className="rounded-2xl border border-orange-200 bg-white p-8">
               <h2 className="mb-4 text-2xl font-bold text-orange-500">
-                {currentLang === 'sw' ? 'Jinsi Inavyotumiwa' : 'In Context'}
+                {currentLang === 'sw' ? 'Jinsi Inavyotumiwa' : currentLang === 'pcm' ? 'In Context' : currentLang === 'yo' ? 'Ní Ìtumọ̀ Gidi' : currentLang === 'ki' ? 'Jinsi Inavyotumiwa' : currentLang === 'yo' ? 'Ní Àwọn Èyàn Tó Kọ' : 'In Context'}
               </h2>
               <blockquote className="border-l-4 border-orange-400 pl-6 italic text-lg text-gray-700">
                 "{term.inContext}"
@@ -138,7 +138,7 @@ export default function TermPage({
               {term.contextMeaning && (
                 <p className="mt-4 text-base leading-relaxed text-gray-700">
                   <span className="font-semibold text-gray-900">
-                    {currentLang === 'sw' ? 'Maana yake:' : 'What this means:'}
+                    {currentLang === 'sw' ? 'Maana yake:' : currentLang === 'yo' ? 'Ìtumọ̀ èyí:' : 'What this means:'}
                   </span>{' '}
                   {term.contextMeaning}
                 </p>
@@ -150,7 +150,7 @@ export default function TermPage({
           {term.whyItMatters && (
             <section className="rounded-2xl border border-orange-200 bg-white p-8">
               <h2 className="mb-4 text-2xl font-bold text-orange-500">
-                {currentLang === 'sw' ? 'Kwa Nini Ni Muhimu' : 'Why It Matters'}
+                {currentLang === 'sw' ? 'Kwa Nini Ni Muhimu' : currentLang === 'yo' ? 'Kí Ló Dé Tí Ó Fi Ṣe Pátáki?' : 'Why It Matters'}
               </h2>
               <p className="text-lg leading-relaxed text-gray-800">{term.whyItMatters}</p>
             </section>
@@ -160,7 +160,7 @@ export default function TermPage({
           {term.relatedTerms.length > 0 && (
             <section className="rounded-2xl border border-orange-200 bg-white p-8">
               <h2 className="mb-4 text-2xl font-bold text-orange-500">
-                {currentLang === 'sw' ? 'Maneno Yanayohusiana' : 'Related Terms'}
+                {currentLang === 'sw' ? 'Maneno Yanayohusiana' : currentLang === 'yo' ? 'Àwọn Ọ̀rọ̀ Tó Ní Ìbáṣepọ̀' : 'Related Terms'}
               </h2>
               <ul className="space-y-2">
                 {term.relatedTerms.map((relatedTerm) => (

@@ -37,8 +37,8 @@ export function getAllTerms(language: string = 'en'): Term[] {
       const title = lines[0]?.replace(/^#\s*/, '') || slug;
 
       // Extract category
-      const categoryLine = lines.find(l => l.startsWith('**Category:**') || l.startsWith('**Kategoria:**'));
-      const category = categoryLine?.replace(/\*\*(Category|Kategoria):\*\*\s*/, '') || 'General';
+      const categoryLine = lines.find(l => l.startsWith('**Category:**') || l.startsWith('**Kategoria:**') || l.startsWith('**Ẹ̀ka:**'));
+      const category = categoryLine?.replace(/\*\*(Category|Kategoria|Ẹ̀ka):\*\*\s*/, '') || 'General';
 
       // Extract plain English (after ## Plain English header)
       const plainEnglishStart = lines.findIndex(l => l.trim() === '## Plain English');
@@ -75,35 +75,35 @@ export function getTermBySlug(slug: string, language: string = 'en'): Term | nul
   const lines = fileContents.split('\n');
 
   const title = lines[0]?.replace(/^#\s*/, '') || slug;
-  const categoryLine = lines.find(l => l.startsWith('**Category:**') || l.startsWith('**Kategoria:**'));
-  const category = categoryLine?.replace(/\*\*(Category|Kategoria):\*\*\s*/, '') || 'General';
+  const categoryLine = lines.find(l => l.startsWith('**Category:**') || l.startsWith('**Kategoria:**') || l.startsWith('**Ẹ̀ka:**'));
+  const category = categoryLine?.replace(/\*\*(Category|Kategoria|Ẹ̀ka):\*\*\s*/, '') || 'General';
 
-  // Support both English and Swahili headers
-  const plainEnglishStart = lines.findIndex(l => l.trim() === '## Plain English' || l.trim() === '## Maelezo Rahisi' || l.trim() === '## Na njira huthu');
+  // Support English, Swahili, Pidgin, Kikuyu and Yoruba headers
+  const plainEnglishStart = lines.findIndex(l => l.trim() === '## Plain English' || l.trim() === '## Maelezo Rahisi' || l.trim() === '## Na njira huthu' || l.trim() === '## Plain Pidgin' || l.trim() === '## Ní Ìtumọ̀ Rọrùn');
   const plainEnglish = plainEnglishStart >= 0
     ? lines[plainEnglishStart + 2]?.trim() || ''
     : '';
 
-  const analogyStart = lines.findIndex(l => l.trim() === '## Analogy' || l.trim() === '## Mfano wa Kila Siku');
+  const analogyStart = lines.findIndex(l => l.trim() === '## Analogy' || l.trim() === '## Mfano wa Kila Siku' || l.trim() === '## Àpẹẹrẹ');
   const analogy = analogyStart >= 0
     ? lines[analogyStart + 2]?.trim() || ''
     : '';
 
-  const contextStart = lines.findIndex(l => l.trim() === '## In Context' || l.trim() === '## Jinsi Inavyotumiwa');
+  const contextStart = lines.findIndex(l => l.trim() === '## In Context' || l.trim() === '## Jinsi Inavyotumiwa' || l.trim() === '## Ní Ìtumọ̀ Gidi');
   const inContext = contextStart >= 0
     ? lines[contextStart + 2]?.replace(/^\*"|"\*$/g, '').trim() || ''
     : '';
 
   const contextMeaning = contextStart >= 0
-    ? lines[contextStart + 4]?.replace(/^\*\*(What this means|Maana yake):\*\*\s*/, '').trim() || ''
+    ? lines[contextStart + 4]?.replace(/^\*\*(What this means|Maana yake|Ìtumọ̀ èyí):\*\*\s*/, '').trim() || ''
     : '';
 
-  const whyItMattersStart = lines.findIndex(l => l.trim() === '## Why It Matters' || l.trim() === '## Kwa Nini Ni Muhimu');
+  const whyItMattersStart = lines.findIndex(l => l.trim() === '## Why It Matters' || l.trim() === '## Kwa Nini Ni Muhimu' || l.trim() === '## Kí Ló Dé Tí Ó Fi Ṣe Pátáki?');
   const whyItMatters = whyItMattersStart >= 0
     ? lines[whyItMattersStart + 2]?.trim() || undefined
     : undefined;
 
-  const relatedTermsStart = lines.findIndex(l => l.trim() === '## Related Terms' || l.trim() === '## Maneno Yanayohusiana');
+  const relatedTermsStart = lines.findIndex(l => l.trim() === '## Related Terms' || l.trim() === '## Maneno Yanayohusiana' || l.trim() === '## Àwọn Ọ̀rọ̀ Tó Ní Ìbáṣepọ̀');
   const relatedTermsEnd = relatedTermsStart >= 0
     ? lines.findIndex((l, i) => i > relatedTermsStart && l.trim() === '---')
     : -1;
