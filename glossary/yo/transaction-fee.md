@@ -4,7 +4,7 @@
 
 ## Plain English
 
-Owó kékeré tí o máa ń fi kún ìdúnàdúrà Bitcoin rẹ láti san fún miners tó ń fi ìdúnàdúrà náà sí blockchain; bí owó na ṣe ga tó, bẹ́ẹ̀ ni wọ́n ṣe máa fìdí ìdúnàdúrà náà múlẹ̀ kíákíá.
+Owó kékeré tí o máa ń fi kún ìdúnàdúrà Bitcoin rẹ láti san fún awakùsà tó ń fi ìdúnàdúrà náà sí blockchain; bí owó na ṣe ga tó, bẹ́ẹ̀ ni wọ́n ṣe máa fìdí ìdúnàdúrà náà múlẹ̀ kíákíá.
 
 ## Analogy
 
@@ -18,7 +18,7 @@ Mo fi owó kékeré sí ìdúnàdúrà mi, ó sì gba ọjọ́ méjì kí wọ�
 
 ## Why It Matters
 
-Owó ìdúnàdúrà jẹ́ kó yẹ awon ti wọ́n máa n mine Bitcoin láti máa ṣiṣẹ́ lórí ìdúnàdúrà, kódà lẹ́yìn tí gbogbo bitcoin ọkanlelogun mílíọ̀nù bá ti wà ní mining. Fún àwọn users, mímọ bí owó ìdúnàdúrà ṣe ń ṣiṣẹ́ yóò ràn ọ́ lọ́wọ́ láti pinnu iye tí o fẹ́ san gẹ́gẹ́ bí bó ṣe ṣe pàtàkì tó kí ìdúnàdúrà rẹ fìdí múlẹ̀ kíákíá.
+Owó ìdúnàdúrà jẹ́ kó yẹ awon ti wọ́n máa n mine Bitcoin láti máa ṣiṣẹ́ lórí ìdúnàdúrà, kódà lẹ́yìn tí gbogbo bitcoin miliọnu mẹ́tàlélọ́gbọ̀n bá ti wà ní mining. Fún àwọn users, mímọ bí owó ìdúnàdúrà ṣe ń ṣiṣẹ́ yóò ràn ọ́ lọ́wọ́ láti pinnu iye tí o fẹ́ san gẹ́gẹ́ bí bó ṣe ṣe pàtàkì tó kí ìdúnàdúrà rẹ fìdí múlẹ̀ kíákíá.
 
 ## Related Terms
 
