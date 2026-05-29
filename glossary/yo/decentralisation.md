@@ -1,6 +1,6 @@
-# Decentralisation
+# Ìpínkiri
 
-**Category:** Tẹknọ́lọ́jì
+**Category:** Ìmọ̀-ẹrọ
 
 ## Plain English
 
@@ -20,7 +20,7 @@ Nítorí pé Bitcoin ń ṣiṣẹ́ lórí ẹgbẹẹgbẹ̀rún kọ̀ǹpút�
 
 ## Why It Matters
 
-Decentralisation ni ohun tó ń fún Bitcoin ní agbára rẹ̀: kò sí ẹni tó lè yí ìlànà rẹ̀ padà, dì owó rẹ̀ mọ́, tàbí pa á tán. Fún àwọn ènìyàn ní orílẹ̀-èdè tí ìṣèlú tàbí ètò ìnáwó wọn kò dáa, èyí ṣe pàtàkì gan-an. Owó rẹ di tirẹ̀ gidi, tí mathimatiki ń dáàbò bo, kì í ṣe ìfẹ́ ilé-iṣẹ́ kan.
+Ìpínkiri ni ohun tó ń fún Bitcoin ní agbára rẹ̀: kò sí ẹni tó lè yí ìlànà rẹ̀ padà, dì owó rẹ̀ mọ́, tàbí pa á tán. Fún àwọn ènìyàn ní orílẹ̀-èdè tí ìṣèlú tàbí ètò ìnáwó wọn kò dáa, èyí ṣe pàtàkì gan-an. Owó rẹ di tirẹ̀ gidi, tí mathimatiki ń dáàbò bo, kì í ṣe ìfẹ́ ilé-iṣẹ́ kan.
 
 ## Related Terms
 

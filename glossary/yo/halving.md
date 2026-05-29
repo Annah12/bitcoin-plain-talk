@@ -1,10 +1,10 @@
 # Ìdínkù Ìdajì (Halving)
 
-**Category:** Aje
+**Category:** Ajé
 
 ## Plain English
 
-Iṣẹlẹ tó máa ń ṣẹlẹ nǹkan bí ẹ̀ẹ̀mẹrin ní ọdún, níbi tí ẹ̀san tí àwọn awakùsà ń gba fún fífikún àkọsílẹ̀ (block) tuntun máa ń dínkù sí ìdajì; èyí ń dín ìyara tí bitcoin tuntun ń wọ inú àgbáyé mọ títí láí.
+Iṣẹlẹ tó máa ń ṣẹlẹ nǹkan bí ẹ̀ẹ̀mẹrin ní ọdún, níbi tí ẹ̀san tí àwọn awakùsà ń gba fún fífikún àkọsílẹ̀ tuntun máa ń dínkù sí ìdajì; èyí ń dín ìyara tí bitcoin tuntun ń wọ inú àgbáyé mọ títí láí.
 
 ## Analogy
 
@@ -23,7 +23,7 @@ Láti April 2024, àwọn awakùsà ń gba bitcoin 3.125 fún block kọ̀ọ̀k
 ## Related Terms
 
 - Bitcoin
-- Awakùsà (Mining)
+- Mining
 - Satoshi
 - Block
 

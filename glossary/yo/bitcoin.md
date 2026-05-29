@@ -1,6 +1,6 @@
 # Bitcoin
 
-**Category:** Aje
+**Category:**  Ajé
 
 ## Plain English
 
@@ -8,7 +8,7 @@
 
 ## Analogy
 
-Fojú inú wo goolu: ó ní iye nítorí pé ó ṣọ̀wọ́n, ó rọrùn láti gbé, àti pé àwọn ènìyàn káàkiri ayé gba pé ó níye. Bitcoin ń ṣiṣẹ́ ní ọ̀nà kannáà, ṣùgbọ́n ó jẹ́ ti kọnpútà. Bitcoin miliọnu mẹ́tàlélọ́gbọ̀n (21 million) péré ni yóò wà títí láí—èyí tó jẹ́ ara àwọn òfin ètò náà—nítorí náà, kò sí ìjọba kankan tó lè tẹ síi jáde kí ó sì dín iye rẹ̀ kù.
+Fojú inú wo goolu: ó ní iye nítorí pé ó ṣọ̀wọ́n, ó rọrùn láti gbé, àti pé àwọn ènìyàn káàkiri ayé gba pé ó níye. Bitcoin ń ṣiṣẹ́ ní ọ̀nà kannáà, ṣùgbọ́n ó jẹ́ ti kọnpútà. Bitcoin miliọnu mẹ́tàlélọ́gbọ̀n (21 million) péré ni yóò wà títí láí, èyí tó jẹ́ ara àwọn òfin ètò náà, nítorí náà, kò sí ìjọba kankan tó lè tẹ síi jáde kí ó sì dín iye rẹ̀ kù.
 
 ## In Context
 

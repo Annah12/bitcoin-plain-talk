@@ -1,6 +1,6 @@
 # Satoshi
 
-**Category:** Aje
+**Category:**  Ajé
 
 ## Plain English
 
@@ -23,8 +23,8 @@ Mo rán satoshi 5,000 gẹ́gẹ́ bí ẹ̀bùn kékeré
 ## Related Terms
 
 - Bitcoin
-- Nẹ́tíwọ̀ọ̀kì Lightning (Lightning Network)
-- Ọ̀yà Ìṣòwò (Transaction Fee)
-- Ìdínkù Ìdajì (Halving)
+- Lightning Network
+- Transaction Fee
+- Halving
 
 ---

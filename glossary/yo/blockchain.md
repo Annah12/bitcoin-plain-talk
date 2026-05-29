@@ -1,6 +1,6 @@
 # Blockchain
 
-**Category:** Tẹknọ́lọ́jì
+**Category:** Ìmọ̀-ẹrọ
 
 ## Plain English
 
@@ -8,13 +8,13 @@
 
 ## Analogy
 
-Rò ó bí ìwé ìṣírò abúlé tí wọ́n fi sí ọjà kí gbogbo ènìyàn lè rí i. Gbogbo ìgbà tí owó bá yí ọwọ́ padà, wọ́n máa kọ ọ sínú ìwé náà — gbogbo ènìyàn náà sì ní ẹ̀dà tirẹ̀. Kò sí ẹni tó lè pa àkọsílẹ̀ kan rẹ́ tàbí yí i padà níkọ̀kọ̀, nítorí àwọn ẹ̀dà àwọn mìíràn yóò fi hàn pé ohun náà kò tọ́. Blockchain dàbí ìwé ìṣírò yẹn, ṣùgbọ́n tí gbogbo ayé ń pín pọ̀.
+Fojú inú wo ìwé àkọsílẹ̀ abúlé tí wọ́n fi sí ọjà kí gbogbo ènìyàn lè rí i. Gbogbo ìgbà tí owó bá yí ọwọ́ padà, wọ́n máa kọ ọ sínú ìwé náà, gbogbo ènìyàn náà sì ní ẹ̀dà tirẹ̀. Kò sí ẹni tó lè pa àkọsílẹ̀ kan rẹ́ tàbí yí i padà níkọ̀kọ̀, nítorí àwọn ẹ̀dà àwọn mìíràn yóò fi hàn pé ohun náà kò tọ́. Blockchain dàbí ìwé àkọsílẹ̀ yẹn, ṣùgbọ́n tí gbogbo ayé ń pín pọ̀.
 
 ## In Context
 
 Wọ́n ti kọ ìsanwó náà sínú blockchain.
 
-Wọ́n ti jẹ́rìí ìsanwó náà, wọ́n sì ti kọ ọ sínú àkọsílẹ̀ gbangba Bitcoin láéláé. Kò ṣeé yí i padà, pa á rẹ́, tàbí ṣe àtúnṣe rẹ̀ láti ọwọ́ ẹnikẹ́ni.
+A ti fìdí ìsanwó náà rẹ̀ múlẹ̀ tí a sì kọ ọ́ títí láí sínú àkọsílẹ̀ gbangba Bitcoin. Kò sí ẹnikẹ́ni tó lè yípadà, paarẹ, tàbí ṣàtúnṣe rẹ̀.
 
 ## Why It Matters
 
