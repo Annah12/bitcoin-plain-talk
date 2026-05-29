@@ -145,7 +145,7 @@ export default function ContributePage() {
           </section>
 
           {/* CTA */}
-          <section className="mb-12 rounded-2xl border-2 border-orange-400 bg-gradient-to-b from-orange-50 to-orange-100 p-8 text-center">
+          <section className="mb-12 rounded-2xl border-2 border-orange-400 bg-linear-to-b from-orange-50 to-orange-100 p-8 text-center">
             <h3 className="text-2xl font-bold text-gray-900">Ready to Contribute?</h3>
             <p className="mt-4 text-lg text-gray-700">
               Every explanation you add helps someone understand Bitcoin better.

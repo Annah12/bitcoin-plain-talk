@@ -34,7 +34,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-orange-50 to-background py-20 sm:py-32">
+      <section className="bg-linear-to-b from-orange-50 to-background py-20 sm:py-32">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
             Making Bitcoin understandable for{" "}
@@ -136,7 +136,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-gradient-to-b from-orange-50 to-orange-100 py-16 sm:py-20">
+      <section className="bg-linear-to-b from-orange-50 to-orange-100 py-16 sm:py-20">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <h3 className="text-3xl font-bold text-gray-900 sm:text-4xl">
             Help Build Bitcoin Education for Africa
