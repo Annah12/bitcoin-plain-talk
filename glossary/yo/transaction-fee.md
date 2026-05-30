@@ -18,7 +18,7 @@ Mo fi owó kékeré sí ìṣòwò mi, ó sì gba ọjọ́ méjì kí wọ́n t
 
 ## Why It Matters
 
-Owó ìṣòwò jẹ́ kó yẹ àwọn awakùsà láti máa ṣiṣẹ́ lórí ìṣòwò, pàápàá lẹ́yìn tí a bá ti kùsà gbogbo bitcoin mílíọ̀nù 21. Fún àwọn olùlò, ìmọ̀ nípa àwọn ọ̀yà ń ràn ọ́ lọ́wọ́ láti pinnu iye tí o fẹ́ san gẹ́gẹ́ bí bó ṣe ṣe pàtàkì tó kí ìṣòwò rẹ fìdí múlẹ̀ kíákíá.
+Owó ìṣòwò jẹ́ kó yẹ àwọn awakùsà láti máa ṣiṣẹ́ lórí ìṣòwò, pàápàá lẹ́yìn tí a bá ti kùsà gbogbo bitcoin mílíọ̀nù mẹ́tàlélọ́gbọ̀n. Fún àwọn olùlò, ìmọ̀ nípa àwọn ọ̀yà ń ràn ọ́ lọ́wọ́ láti pinnu iye tí o fẹ́ san gẹ́gẹ́ bí bó ṣe ṣe pàtàkì tó kí ìṣòwò rẹ fìdí múlẹ̀ kíákíá.
 
 ## Related Terms
 
