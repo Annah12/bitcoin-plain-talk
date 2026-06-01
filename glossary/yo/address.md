@@ -1,6 +1,6 @@
 # Adirẹsi
 
-**Category:** Ìdúnàdúrà
+**Category:** Ìṣòwò
 
 ## Plain English
 
@@ -8,17 +8,17 @@
 
 ## Analogy
 
-Ó dàbí nọ́mbà Mobile Money rẹ. O fún ẹnìkan ní nọ́mbà M-Pesa tàbí MTN rẹ, wọ́n á sì fi owó ránṣẹ́, owó náà á sì dé sínú àkọọ́lẹ̀ rẹ. Bitcoin address náà ń ṣiṣẹ́ bákan náà. Bí o bá pín un, bitcoin tí wọ́n bá fi ránṣẹ́ sí i yóò dé sínú wallet rẹ.
+Ó dà bí nọ́mbà MTN tàbí Opay rẹ. O fún ẹnìkan ní nọ́mbà rẹ, wọ́n rán owó, owó náà dé inú àpamọ́owó rẹ. Àdírẹ́sì Bitcoin ń ṣiṣẹ́ ní ọ̀nà kannáà; pínpín rẹ̀, bitcoin tí a rán sí i máa ń dé inú àpamọ́owó rẹ.
 
 ## In Context
 
-Fi owó náà ránṣẹ́ sí address yìí: bc1qxy2k...
+Fi owó náà ránṣẹ́ sí àdírẹ́sì yìí: bc1qxy2k...
 
-Ẹni náà ń pín Bitcoin address rẹ kí olùránṣẹ́ lè mọ ibi gangan tí yóò fi owó náà ránṣẹ́. Àkójọpọ̀ lẹ́tà àti nọ́mbà yìí ni nẹ́tíwọ́ọ̀kì Bitcoin fi ń mọ ibi tí yóò fi transaction náà dé.
+Ẹni náà ń pín Bitcoin àdírẹ́sì rẹ kí olùránṣẹ́ lè mọ ibi gangan tí yóò fi owó náà ránṣẹ́. Àkójọpọ̀ lẹ́tà àti nọ́mbà náà ni bí nẹ́tíwọ̀ọ̀kì Bitcoin ṣe ń mọ ibi tí a máa ń fí ìṣòwò náà pọ̀.
 
 ## Why It Matters
 
-Address jẹ́ kí o lè gba bitcoin láti ọ̀dọ̀ ẹnikẹ́ni ní ibikíbi lágbàáyé láìfi ìdánimọ̀ rẹ tàbí private key rẹ hàn. Àwọn wallet òde òní máa ń dá address tuntun sílẹ̀ fún transaction kọ̀ọ̀kan, èyí tó ń mú ààbò àti ìpamọ́ dára sí i nípa mímú kó ṣòro fún ènìyàn láti tọ gbogbo ìtàn owó rẹ.
+Àwọn àdírẹ́sì jẹ́ kí o lè gba bitcoin láti ọ̀dọ̀ ẹnikẹ́ni ní ibikíbi lágbàáyé láìfi ìdánimọ̀ rẹ tàbí kọ́kọ́ àdáni rẹ hàn. Àwọn àpamọ́owó òde òní máa ń dá àdírẹ́sì tuntun sílẹ̀ fún ìṣòwò kọ̀ọ̀kan, èyí tó ń mú ààbò àti ìpamọ́ dára sí i nípa mímú kó ṣòro fún ènìyàn láti tọ gbogbo ìtàn owó rẹ.
 
 ## Related Terms
 
