@@ -111,7 +111,7 @@ export default function TermPage({
           {/* Plain English / Maelezo Rahisi */}
           <section className="rounded-2xl border border-orange-200 bg-white p-8">
             <h2 className="mb-4 text-2xl font-bold text-orange-500">
-              {currentLang === 'sw' ? 'Maelezo Rahisi' : currentLang === 'pcm' ? 'Plain Pidgin' : currentLang === 'ki' ? 'Na njira huthu' : currentLang === 'yo' ? 'Ní Ìtumọ̀ Rọrùn' : 'Plain English'}
+              {currentLang === 'sw' ? 'Maelezo Rahisi' : currentLang === 'pcm' ? 'Plain Pidgin' : currentLang === 'ki' ? 'Gĩthũngũ' : currentLang === 'yo' ? 'Ní Ìtumọ̀ Rọrùn' : 'Plain English'}
             </h2>
             <p className="text-lg leading-relaxed text-gray-800">{term.plainEnglish}</p>
           </section>
@@ -133,7 +133,7 @@ export default function TermPage({
                 {currentLang === 'sw' ? 'Jinsi Inavyotumiwa' : currentLang === 'pcm' ? 'In Context' : currentLang === 'yo' ? 'Ní Ìtumọ̀ Gidi' : currentLang === 'ki' ? 'Jinsi Inavyotumiwa' : currentLang === 'yo' ? 'Ní Àwọn Èyàn Tó Kọ' : 'In Context'}
               </h2>
               <blockquote className="border-l-4 border-orange-400 pl-6 italic text-lg text-gray-700">
-                "{term.inContext}"
+                &quot;{term.inContext}&quot;
               </blockquote>
               {term.contextMeaning && (
                 <p className="mt-4 text-base leading-relaxed text-gray-700">
