@@ -8,7 +8,7 @@ An upgrade to Bitcoin's rules that is backwards-compatible, meaning older nodes 
 
 ## Analogy
 
-Imagine a market that used to accept both old and new naira notes. And then the government introduces a new rule saying: Only mew notes are to be used for large purchases. People using only small notes can still buy small things, but over time, most people switch to the new notes because it works better. A soft fork works the same way: new rules are added, but nobody is forced off the network.
+Imagine a market that used to accept both old and new naira notes. And then the government introduces a new rule saying: Only new notes are to be used for large purchases. People using only small notes can still buy small things, but over time, most people switch to the new notes because it works better. A soft fork works the same way: new rules are added, but nobody is forced off the network.
 
 ## In Context
 
