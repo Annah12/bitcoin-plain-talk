@@ -1,6 +1,6 @@
 # Ìṣàtúnṣe Ìṣòro
 
-**Category:** Nẹ́tíwọ́ọ̀kì
+**Category:** Nẹ́tíwọ̀ọ̀kì
 
 ## Plain English
 
