@@ -1,36 +1,274 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bitcoin Plain Talk
+
+**Making Bitcoin understandable in every African language, one concept at a time.**
+
+Bitcoin Plain Talk is an open-source glossary that explains Bitcoin concepts in simple, everyday language.
+
+Instead of technical definitions filled with jargon, Bitcoin Plain Talk uses relatable examples and analogies rooted in African experiences to help more people understand Bitcoin without needing a technical background.
+
+The project also translates Bitcoin concepts into African languages, making Bitcoin knowledge more accessible while creating valuable language datasets that can support future AI development across the continent.
+
+## The Problem
+
+For many people discovering Bitcoin, the technology itself is not the biggest barrier.
+
+The language is.
+
+Terms like:
+
+* UTXO
+* Mempool
+* Lightning Network
+* Seed Phrase
+* Channel Liquidity
+
+can feel intimidating to newcomers.
+
+This creates a knowledge gap where people become interested in Bitcoin but struggle to understand the concepts needed to participate confidently.
+
+The challenge becomes even greater when educational resources are only available in English.
+
+Across Africa, millions of people learn and communicate primarily in local languages, yet most Bitcoin education remains inaccessible to them.
+
+## Why Bitcoin Plain Talk Exists
+
+Bitcoin Plain Talk exists to make Bitcoin education easier, more relatable, and more inclusive.
+
+We believe:
+
+* Bitcoin knowledge should not require technical expertise
+* Local languages deserve high-quality educational resources
+* Clear explanations accelerate adoption
+* Better language resources create opportunities beyond Bitcoin
+
+Every translation added to this project helps more people understand Bitcoin while also contributing to the growth of digital resources in African languages.
+
+## What Bitcoin Plain Talk Does
+
+Bitcoin Plain Talk combines:
+
+* Plain-language Bitcoin explanations
+* African-context analogies
+* Community-driven translations
+* Open-source educational resources
+* Language dataset creation
+
+All in one collaborative project that anyone can contribute to.
+
+## Features
+
+### Bitcoin Glossary
+
+Simple explanations for commonly misunderstood Bitcoin concepts.
+
+Examples include:
+
+* Bitcoin Wallet
+* Private Keys
+* Seed Phrases
+* Mempool
+* UTXOs
+* Mining
+* Nodes
+* Lightning Network
+* Payment Channels
+* Routing
+
+### African Language Translations
+
+Educational content translated into local African languages.
+
+Current focus includes:
+
+* Yoruba
+* Nigerian Pidgin
+* Swahili
+* Kikuyu
+
+Future languages may include:
+
+* Amharic
+* Hausa
+* Igbo
+* Zulu
+* Xhosa
+* Twi
+* Luganda
+
+### Local Analogies
+
+Concepts explained through examples people already understand.
+
+Examples:
+
+* Market trading
+* Mobile money
+* Community savings groups
+* Local transportation systems
+* Everyday cash transactions
+
+### Open Educational Resource
+
+All content is openly available for learning, sharing, and improvement.
+
+## Why This Matters Beyond Bitcoin
+
+Bitcoin Plain Talk is also helping build digital language infrastructure for Africa.
+
+Every translation contributes to:
+
+* Better language datasets
+* More representation for African languages online
+* Improved AI training resources
+* Better language models
+* Lower barriers for developers building local-language products
+
+Better data leads to better AI tools for African communities.
+
+## Project Structure
+
+```text
+bitcoin-plain-talk/
+├── glossary/
+|   ├── en/
+│   ├── bitcoin-wallet.md
+│   ├── seed-phrase.md
+│   ├── mempool.md
+│   ├── utxo.md
+│   └── lightning-network.md
+│
+│   ├── yoruba/
+│   ├── pidgin/
+│   ├── swahili/
+│   └── kikuyu/
+│
+│
+└── README.md
+```
+
+## Who Can Contribute?
+
+You do not need to be a developer to contribute.
+
+We welcome:
+
+### Bitcoin Learners
+
+Help identify confusing explanations and suggest simpler alternatives.
+
+### Native Language Speakers
+
+Translate concepts into your local language.
+
+### Educators
+
+Improve explanations and educational accuracy.
+
+### Writers
+
+Rewrite content to make it clearer and easier to understand.
+
+### Developers
+
+Help build tools, workflows, and infrastructure around the glossary.
+
+### Researchers
+
+Help organize, validate, and improve language datasets.
+
+## How to Contribute
+
+### Option 1: Improve an Existing Definition
+
+* Find a glossary entry
+* Suggest a simpler explanation
+* Submit a pull request
+
+### Option 2: Add a Translation
+
+* Choose a concept
+* Translate it into your language
+* Submit your contribution
+
+### Option 3: Add a New Concept
+
+* Create a new glossary entry
+* Explain it in plain language
+* Include an everyday analogy
+
+### Option 4: Review Contributions
+
+* Check translations
+* Verify accuracy
+* Improve clarity
+
+## Contribution Principles
+
+Every glossary entry should aim to be:
+
+* Simple
+* Accurate
+* Beginner-friendly
+* Culturally relatable
+* Easy to translate
+
+Avoid unnecessary jargon whenever possible.
+
+If a technical term must be used, explain it clearly.
+
+## Future Goals
+
+Bitcoin Plain Talk is evolving toward:
+
+* Support for 50+ African languages
+* Community translation reviews
+* Audio explanations
+* Visual learning resources
+* AI-ready language datasets
+* Open APIs for developers
+* Educational partnerships across Africa
 
 ## Getting Started
 
-First, run the development server:
+Fork the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-org/bitcoin-plain-talk.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Navigate into the project:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd bitcoin-plain-talk
+cd glossary
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Choose a concept, language, or improvement area and start contributing.
 
-## Learn More
+Example:
 
-To learn more about Next.js, take a look at the following resources:
+cd kikuyu
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Add a translated file in the folder
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+MIT License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Acknowledgments
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Thank you to:
+
+* Bitcoin educators
+* Open-source contributors
+* Language translators
+* African language communities
+* Everyone helping make Bitcoin easier to understand
+
+## Join the Mission
+
+Bitcoin should be understandable by anyone, regardless of technical background or language.
+
+If you speak an African language, write, teach, translate, research, or simply care about making Bitcoin more accessible, we'd love your contribution.
+
+Every word matters.
